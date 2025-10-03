@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: product-service-container
-        image: mcnweek09acr.azurecr.io/product_service:latest
+        image: mcnweek09acr.azurecr.io/product-service:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8000

@@ -82,7 +82,7 @@ services:
     environment:
       POSTGRES_HOST: product_db
       AZURE_STORAGE_ACCOUNT_NAME: week09storageacc
-      AZURE_STORAGE_ACCOUNT_KEY: UAkzxhztBpymhI+kGvZ4MK/5+PtPHD5De+GhsmoGVjk0FATJHQyt3mvnpCsuwG9KHRhgfOlsXGJP+AStkRb1qQ==
+      AZURE_STORAGE_ACCOUNT_KEY: lXpQMzWsdeBnf/S7YsP+EbxQiV3UMfn9755scT/3KDrOEXfEzBLSuFeXeBK3aW4HzfEKM9dxD3+e+ASthcAhmw==
       AZURE_STORAGE_CONTAINER_NAME: $logs
       AZURE_SAS_TOKEN_EXPIRY_HOURS: 24
     depends_on:
